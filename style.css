@@ -1,0 +1,140 @@
+/*   
+  *{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(73, 106, 118);
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+input[type="text"]
+        {
+        width: 100%;
+        height: 30px;
+        outline-color: black;
+}
+input[type="password"]{
+        width: 100%;
+        height: 30px;
+        outline-color: black;
+}
+
+#form {
+    background-color: rgb(169, 201, 241);
+    padding: 40px 80px;
+    border-radius: 5px;
+    outline-color:black;
+}
+.submit {
+    display: inline-block;
+    width: 45%;
+    height: 20%;
+    cursor: pointer;
+    background-color: rgb(148, 160, 163);
+    padding: 18px;
+    font-family: initial;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    outline-color:black;
+}
+ 
+
+ */
+
+
+ /* * {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    font-size: 120%;
+    background: #F8F8FF;
+    justify-content: center;
+  }
+  
+  .header {
+    width: 30%;
+    margin: 40px auto 0px;
+    color: white;
+    background: #5F9EA0;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+  }
+  form, .content {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+  }
+  .input-group {
+    margin: 10px 0px 10px 0px;
+  }
+  .input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+  }
+  .input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  .btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 5px;
+    width: 45%;
+    height: 20%; 
+  }
+
+
+
+ 
+  */
+
+
+  body{
+    background-color: blueviolet;
+}
+
+#form{
+    background-color: rgb(255, 255, 255);
+    width:25%;
+    border-radius: 4px;
+    margin:120px auto;
+    padding:50px;
+    box-shadow: 10px 10px 5px rgb(82, 11, 77);
+}
+
+#btn{
+    color:rgb(255, 255, 255);
+    background-color: rgb(108, 22, 189);
+    padding:10px;
+    font-size: large;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 570px) {
+    #form {
+      width: 65%;
+      margin-left:none;
+      padding:40px;
+    }
+  }
